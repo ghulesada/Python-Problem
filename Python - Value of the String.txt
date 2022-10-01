@@ -1,0 +1,30 @@
+Value of the string
+
+Calculate the value of the given string
+
+String contains
+1. Uppercase
+2. Lowercase
+
+Value of string is calculated by adding the values of the chars of the string
+
+Values is lower case based on the position of alphabet
+
+Values of upper case based on the position of alphabet + 26
+
+For solution:
+
+Lower case a = 1
+Upper case A = 26 + 1
+
+Lower case b = 2
+Upper case B = 26 + 2
+
+Sample Input --> denotes String S
+S = "abcdEf"
+
+Sample Output --> 47
+
+Explanation
+The value for "abcdEf" is 1 for a + 2 for b + 3 for c + 4 for d + 5+26 for E + 6 for f
+Total = 1 + 2 + 3 + 4 + 5 + 26 + 6 = 47.
